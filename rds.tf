@@ -6,7 +6,7 @@ tags = {
 }
 }
 resource "aws_db_instance" "default" {
- allocated_storage = 10
+ allocated_storage = 11
  db_subnet_group_name = aws_db_subnet_group.default.id
  engine = "mysql"
  engine_version = "5.7"
